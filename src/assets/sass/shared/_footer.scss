@@ -2,4 +2,8 @@ footer {
   height: auto;
   position: relative;
   z-index: 5;
+  &.footer{
+    min-height: 20px;
+    background-color: #222224;
+  }
 }

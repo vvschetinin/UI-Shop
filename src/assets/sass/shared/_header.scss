@@ -2,4 +2,62 @@ header {
   height: auto;
   position: relative;
   z-index: 5;
+  &.header{
+    background-color: #222224;
+  }
+  .header-content{
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content-block{
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  .search-wrap{
+    display: flex;
+    padding-left: 40px;
+    img{
+      width: 40px;
+      height: auto;
+      &.search-btn{
+        cursor: pointer;
+      }
+    }
+  }
+  input.headsearch {
+    display: block;
+    font-size: 16px;
+    width: 340px;
+    min-height: 30px;
+    border: 1px solid #A4A4A4;
+    border-radius: 2px;
+    margin: 0 0 0 15px;
+    padding-left: .5rem;
+    &::placeholder{
+      font-size: 16px;
+      color: #9F9F9F;
+    }
+  }
+  .headlist{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    li+li{
+      margin-left: 30px;
+    }
+    .headbutton{
+      background-color: #222224;
+    }
+    .headericon{
+      fill: #fff;
+      opacity: 1.0;
+      transition: all .25s ease;
+      &:hover{
+        opacity: .8;
+      }
+    }
+  }
 }
