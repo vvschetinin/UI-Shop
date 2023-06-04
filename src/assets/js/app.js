@@ -1,1 +1,2 @@
-console.log('I am App');
+'use strict';
+import '@/assets/js/headscript.js';

@@ -28,3 +28,61 @@
     color: $brand;
   }
 }
+
+
+.heading{
+  background: #F8F3F4;
+  min-height: 148px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .title-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headingtitle{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #F16D7F;
+    margin: 0;
+  }
+  .bradcrambs-nav {
+    display: flex;
+    justify-content: flex-end !important;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 32px;
+    .nav-item {
+      padding-right: 5px;
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+    .nav-link {
+      text-transform: uppercase;
+      font-size: 14px;
+      display: block;
+      padding: 0.5rem 0;
+      color: #0d6efd;
+      text-decoration: none;
+      transition: color .15s ease-in-out,
+      background-color .15s ease-in-out,
+      border-color .15s ease-in-out;
+    }
+    a.nav-link:after {
+      content: " / ";
+    }
+    a.nav-link:hover {
+      color: #F16D7F;
+    }
+    span.nav-link {
+      color: #F16D7F;
+    }
+  }
+}
