@@ -12,6 +12,8 @@ export default defineConfig({
       input: {
         enter: path.resolve(__dirname, 'index.html'),
         home: path.resolve(__dirname, 'pages/home/index.html'),
+        catalog: path.resolve(__dirname, 'pages/catalog/index.html'),
+        contacts: path.resolve(__dirname, 'pages/contacts/index.html'),
         sample: path.resolve(__dirname, 'pages/sample/index.html')
       },
     },
