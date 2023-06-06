@@ -1,0 +1,14 @@
+.s-news{
+  padding: 70px 0;
+  padding-bottom: 50px;
+  @include minMedia(768) {
+    padding: 90px 0;
+    padding-bottom: 70px;
+  }
+}
+
+.newslist{
+  .newsitem{
+    padding-bottom: 20px;
+  }
+}

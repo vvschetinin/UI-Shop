@@ -16,6 +16,8 @@ export default defineConfig({
         product: path.resolve(__dirname, 'pages/product/index.html'),
         cart: path.resolve(__dirname, 'pages/cart/index.html'),
         catalog: path.resolve(__dirname, 'pages/catalog/index.html'),
+        news: path.resolve(__dirname, 'pages/news/index.html'),
+        newsdetail: path.resolve(__dirname, 'pages/newsdetail/index.html'),
         contacts: path.resolve(__dirname, 'pages/contacts/index.html'),
         sample: path.resolve(__dirname, 'pages/sample/index.html')
       },

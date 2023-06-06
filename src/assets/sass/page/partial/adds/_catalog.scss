@@ -1,0 +1,36 @@
+.s-filter{
+  min-height: 130px;
+}
+
+.s-catalog{
+  padding-bottom: 70px;
+  @include minMedia(768) {
+    padding-bottom: 90px;
+  }
+}
+
+.pagination{
+  padding-top: 40px;
+  .pagination-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 43px;
+    width: 283px;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    padding: 0 15px 0 15px;
+  }
+  .pagination-item{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    font-style: normal;
+    color: #5D5D5D;
+    text-decoration: none;
+    &.active{
+      color: #F16D7F;
+    }
+  }
+}
