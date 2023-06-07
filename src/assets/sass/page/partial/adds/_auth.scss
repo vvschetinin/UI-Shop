@@ -1,0 +1,6 @@
+.s-auth {
+  padding: 70px 0;
+  @include minMedia(768) {
+    padding: 90px 0;
+  }
+}
