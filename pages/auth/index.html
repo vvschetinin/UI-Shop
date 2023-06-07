@@ -138,18 +138,45 @@
       <section class="s-auth">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
-              <div class="form-wrap">
-                <form action="" method="post" class="auth-form">
-                  <fieldset class="auth-fieldset">
-                    <legend class="authname">Your name</legend>
-                    <ul class="fieldlist">
-                      <li><input type="text" class="authfield" placeholder="First name"></li>
-                      <li><input type="text" class="authfield" placeholder="Last name"></li>
-                    </ul>
-                  </fieldset>
-                </form>
-              </div>
+            <div class="col-lg-6 form-wrap">
+
+
+              <form action="" method="post" class="authform">
+                <fieldset class="auth-fieldset">
+                  <legend class="authname-legend">Your name</legend>
+                  <ul class="fieldlist">
+                    <li><input type="text" class="authfield" placeholder="First name"></li>
+                    <li><input type="text" class="authfield" placeholder="Last name"></li>
+                  </ul>
+                </fieldset>
+                <fieldset class="auth-fieldset radio-fieldset flex justify-start">
+                  <legend class="visually-hidden">your gender</legend>
+                  <div class="radioblock">
+                    <input type="radio" checked name="gender" id="male" class="authfield-radio">
+                    <label for="male" class="">male</label>
+                  </div>
+                  <div class="radioblock">
+                    <input type="radio" name="gender" id="female" class="authfield-radio">
+                    <label for="female" class="">female</label>
+                  </div>
+                </fieldset>
+                <fieldset class="auth-fieldset">
+                  <legend class="authname-legend">Login details</legend>
+                  <ul class="fieldlist">
+                    <li><input type="email" class="authfield" placeholder="Email"></li>
+                    <li><input type="password" class="authfield" placeholder="Passsword"></li>
+                  </ul>
+                </fieldset>
+                <div class="checkbox-wrap">
+                  <input type="checkbox" id="approval">
+                  <label for="approval" class="approval">Lorem ipsum dolor sit amet consectetur, adipisicing elit</label>
+                </div>
+                <div class="button-wrap">
+                  <button type="submit" class="formsubmit">join now</button>
+                </div>
+              </form>
+
+
             </div>
             <div class="col-lg-6"></div>
           </div>
