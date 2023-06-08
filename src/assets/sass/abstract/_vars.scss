@@ -10,6 +10,18 @@ $base-font-size: 18px !default;
 
 $base-line-height: 1.6 !default;
 
+// Bootstrap Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+
+$grid-columns: 12 !default;
+
 /// Code (monospace) font family
 /// @type List
 $code-font-stack: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", monospace !default;
@@ -52,5 +64,3 @@ $theme-color: (
   "footer": #ffe117,
   "head": #ffe79e,
 ) !default;
-
-$ksize: 1.12;
