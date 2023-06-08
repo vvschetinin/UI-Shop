@@ -4,3 +4,50 @@
     padding: 90px 0;
   }
 }
+
+.authtext-wrap{
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-title{
+  h2{
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0;
+  }
+  p{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    margin: 22px 0 0 0;
+    display: block;
+    max-width: 650px;
+  }
+}
+
+.authlist{
+  margin-top: 20px;
+  li{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    padding-left: 40px;
+    position: relative;
+    &::before {
+      content: url(/assets/images/svg/check.svg);
+      position: absolute;
+      left: 0;
+    }
+  }
+  li+li{
+    margin-top: 15px;
+  }
+}
