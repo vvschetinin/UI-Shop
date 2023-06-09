@@ -1,0 +1,18 @@
+.slider-product{
+  min-height: 300px;
+  .slider-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+  display: none;
+}
+
+.slider-prev, .slider-next{
+  position: relative;
+  background-color: #D4D4D4;
+}
