@@ -1,7 +1,10 @@
 .intro{
   background-color: #F1E4E6;
   overflow: hidden;
-  max-height: 650px;
+  max-height: 400px;
+  @include minMedia(768) {
+    max-height: 650px;
+  }
   .introimg{
     position: relative;
     max-width: 650px;
@@ -19,6 +22,9 @@
     display: flex;
     align-items: center;
     min-height: 450px;
+    .title-wrap{
+      text-align: left;
+    }
   }
   h1 span{
     display: block;

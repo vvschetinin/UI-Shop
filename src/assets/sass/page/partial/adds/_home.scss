@@ -3,6 +3,11 @@
   @include minMedia(768) {
     padding: 90px 0 0 0;
   }
+  .item-wrap{
+    &:last-child{
+      width: 100%;
+    }
+  }
 }
 .stock-item{
   position: relative;
