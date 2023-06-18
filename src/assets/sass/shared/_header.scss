@@ -17,8 +17,11 @@ header {
     align-items: center;
   }
   .search-wrap{
-    display: flex;
-    padding-left: 40px;
+    display: none;
+    @include minMedia(768) {
+      display: flex;
+      padding-left: 40px;
+    }
     img{
       width: 40px;
       height: auto;
