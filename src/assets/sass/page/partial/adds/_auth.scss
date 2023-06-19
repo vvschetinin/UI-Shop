@@ -8,6 +8,10 @@
 .authtext-wrap{
   width: 100%;
   max-width: 400px;
+  margin-top: 30px;
+  @include minMedia(992) {
+    margin-top: 0;
+  }
 }
 
 .auth-title{
@@ -20,8 +24,8 @@
     padding: 0;
   }
   p{
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1rem;
+    line-height: 1.45;
     font-weight: 300;
     font-style: normal;
     color: #000000;
@@ -34,7 +38,7 @@
 .authlist{
   margin-top: 20px;
   li{
-    font-size: 24px;
+    font-size: 1rem;
     line-height: 1.2;
     font-weight: 300;
     font-style: normal;

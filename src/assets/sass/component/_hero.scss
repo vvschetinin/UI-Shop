@@ -57,12 +57,16 @@
   }
   .bradcrambs-nav {
     display: flex;
-    justify-content: flex-end !important;
+    justify-content: flex-start !important;
     flex-wrap: wrap;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    margin-top: 32px;
+    margin-top: 10px;
+    @include minMedia(768) {
+      justify-content: flex-end !important;
+      margin-top: 32px;
+    }
     .nav-item {
       padding-right: 5px;
       &:last-child {
