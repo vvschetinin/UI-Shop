@@ -57,3 +57,19 @@
     }
   }
 }
+
+.menuwrap{
+  display:  none;
+  padding: 12px 0;
+  background: #F1F3F4;
+  border-bottom: 1px solid #111;
+  @include minMedia(576) {
+    display: block;
+  }
+}
+
+.main-menu{
+  li+li{
+    margin-left: 25px;
+  }
+}
